@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TE ADORO MÁS Y PUNTO.</title>
+    <style>
+       .body{
+        background-color: palevioletred;
+        text-align: center;
+       } 
+
+       .body__title {
+color: wheat;
+       }
+
+       .body__img {
+        width: 35%;
+        border-radius: 30%;
+       }
+    </style>
+</head>
+
+<body class="body">
+   <h1 class="body__title">𓆰❣ Chiari, mi love ¿Puedo ser tu novia? ❣𓆰</h1>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYBqVTAQspH5F34hMrnpakVVs5P79JxAaX7tPIifDzQnSF2-xjSeAK1h3lKZMtqS31nAU&usqp=CAU" alt="Gumball chikito" class="body__img"/>
+   <button id="yes">♕ ACEPTO ♕</button> 
+   <button id="no">✘ NO ACEPTO, ADIÓS HELADOS DE VAINILLA ✘</button>
+
+   <script>
+    const vutonSi = document.getElementById('yes');
+    const vutonNo = document.getElementById('no');
+
+    const MIANOVIA = () => {
+        alert ('❀ YEIII ESA GUAPA AHORA ES MI NOVIA ❀');
+        alert ('❣ TE ADORO CHIARA ❣');
+        alert ('࿏✩ VEN AHORA MISMO Y BÉSAME ✩࿏');
+        location.href = 'https://youtu.be/rHVFkfn_vZo';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+        vutonNo.style.position = 'absolute';
+        vutonNo.style.top = (Math.random() * window.innerHeight) + 'px';
+        vutonNo.style.left = (Math.random() * window.innerWidth) + 'px';
+    };
+
+vutonSi.addEventListener ('click', MIANOVIA);
+vutonNo.addEventListener ('mouseover', ebitarKCRompaMyBobo);
+   </script>
+</body>
+
+</html>
